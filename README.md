@@ -4,7 +4,8 @@ The Home Page allows users to readily access their wardrobe items, as well as ge
 
 <img width="348" alt="screenshot 2018-12-07 at 2 37 49 am" src="https://user-images.githubusercontent.com/38836431/49604939-2e484b80-f9ca-11e8-9023-56b540321a81.png">
 
-<img width="312" alt="screenshot 2018-12-07 at 2 38 15 am" src="https://user-images.githubusercontent.com/38836431/49605059-7d8e7c00-f9ca-11e8-97a7-afe0a3dc651c.png">
+<img width="343" alt="screenshot 2018-12-07 at 2 50 03 am" src="https://user-images.githubusercontent.com/38836431/49605191-d78f4180-f9ca-11e8-8f75-7d19abb8b45d.png">
+
 
 
 The Business News section was via an API from newsapi.org . The Fashion News section was done locally by scraping relavant fashion news site 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Dress</item>
+        <item>Jacket</item>
+        <item>Shirt</item>
+        <item>Jeans</item>
+        <item>Bermudas</item>
+        <item>Dress</item>
+    </string-array>
+</resources>

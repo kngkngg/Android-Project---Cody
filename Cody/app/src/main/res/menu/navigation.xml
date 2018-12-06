@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_nav"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_wardrobe"
+        android:icon="@drawable/wardrobe_navigation"
+        android:title="@string/title_wardrobe" />
+
+    <item
+        android:id="@+id/navigation_ootds"
+        android:icon="@drawable/photo_navigation"
+        android:title="@string/title_ootds" />
+
+    <item
+        android:id="@+id/navigation_customise"
+        android:icon="@drawable/customize_navigation"
+        android:title="@string/title_customize" />
+
+    <item
+        android:id="@+id/navigation_generate"
+        android:icon="@drawable/generate_navigation"
+        android:title="@string/title_profile" />
+
+
+</menu>

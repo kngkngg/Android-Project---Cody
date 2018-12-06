@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewItem"
+        cardCornerRadius="5dp"
+        cardElevation="1dp"
+        cardMaxElevation="1dp"
+        cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="16dp"
+        app:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:id="@+id/ard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/cardViewItem"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cardViewImage"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/blackcap" />
+
+            <TextView
+                android:id="@+id/cardViewTextCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Count position"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/cardViewTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewTextCount"
+                android:text="Id position"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/cardViewTextCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewTextId"
+                android:text="Category Position" />
+
+            <TextView
+                android:id="@+id/cardViewTextFormality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewTextCategory"
+                android:text="Formality position"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/cardViewTextLastUsed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewTextFormality"
+                android:text="Last Used position"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/cardViewTextOotd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardViewTextLastUsed"
+                android:text="Ootd position"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

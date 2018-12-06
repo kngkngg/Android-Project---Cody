@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cody</string>
+    <string name="title_home">Home</string>
+    <string name="title_wardrobe">Wardrobe</string>
+    <string name="title_ootds">OOTDs</string>
+    <string name="title_customize">Customise</string>
+    <string name="title_profile">Generate</string>
+
+    <string name="rec_regenerate">Refreshed recommended outfits!</string>
+</resources>

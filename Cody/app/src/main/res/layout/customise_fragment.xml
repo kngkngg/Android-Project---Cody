@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview_customise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/layout_customise"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:layout_gravity="center"
+                android:useDefaultMargins="true"
+                android:paddingTop="20dp"
+                android:rowCount="3">
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+                <ImageButton
+                    android:id="@+id/imagebutton_cus6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/add100x100" />
+
+
+
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/button_addtofavourites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Favourite" />
+
+
+                <Button
+                    android:id="@+id/button_capture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="Wear This Today!"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
